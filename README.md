@@ -1,7 +1,6 @@
-# Small-Scale ChatGPT
+# Mini-Language-Model
 
-A lightweight implementation of a conversational AI model using a GRU-based language model, optimized for CPU training and inference. This project demonstrates the end-to-end process of building a simple chatbot: from data preparation and pre-training to fine-tuning and deployment via a Flask web application.
-
+Lightweight implementation of a small language model (similar to chatGPT) using GRU. We do pretraining over a story-telling dataset and post-training over a chat-template with synthetic data. 
 ## Demo
 
 ![Demo](assets/demo.gif)
