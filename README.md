@@ -1,6 +1,7 @@
 # Mini-Language-Model
 
-Lightweight implementation of a small language model (similar to chatGPT) using GRU. We do pretraining over a story-telling dataset and post-training over a chat-template with synthetic data. 
+Lightweight implementation of a small language model (similar to chatGPT) using GRU. We do pretraining over a story-telling dataset and post-training over a chat-template with synthetic data.
+
 ## Demo
 
 ![Demo](assets/demo.gif)
@@ -12,15 +13,14 @@ Lightweight implementation of a small language model (similar to chatGPT) using 
 - **Fine-tuning**: Specialized training on conversational pairs for chat capabilities.
 - **Inference Engine**: Generate responses with configurable temperature and top-k sampling.
 - **Web Interface**: Flask-based chat application with a simple HTML frontend.
-- **CPU-Optimized**: Designed to run on standard laptops without requiring GPUs.
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd small-scale-chatgpt
+    git clone https://github.com/bhatishan2003/mini-language-model.git
+    cd mini-language-model
     ```
 
 2. Create a virtual environment:
